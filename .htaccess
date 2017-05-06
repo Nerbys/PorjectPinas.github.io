@@ -1,4 +1,4 @@
- <Directory "${SRVROOT}/htdocs">
+
 AddType application/x-javascript .jsgz
 AddType application/wasm .wasmgz
 AddType text/plain .symbolsgz
@@ -21,6 +21,6 @@ AddEncoding gzip .memgz
 
 AddEncoding gzip .datagz
 
-
+ <Directory "${SRVROOT}/htdocs">
   AddEncoding gzip gz
  </Directory>
