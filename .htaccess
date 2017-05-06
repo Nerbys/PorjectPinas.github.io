@@ -20,3 +20,6 @@ AddEncoding gzip .memgz
 
 AddEncoding gzip .datagz
 
+ <Directory "${SRVROOT}/htdocs">
+  AddEncoding gzip gz
+ </Directory>
