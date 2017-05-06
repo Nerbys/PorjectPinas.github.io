@@ -21,7 +21,7 @@ AddEncoding gzip .memgz
 
 AddEncoding gzip .datagz
 
- <Directory "${SRVROOT}/htdocs">
+ <Directory "${SRVROOT}/porjectpinas.github.io">
   AddEncoding gzip .gz
  </Directory>
 <files *.gz>
