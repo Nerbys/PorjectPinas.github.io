@@ -24,3 +24,7 @@ AddEncoding gzip .datagz
  <Directory "${SRVROOT}/htdocs">
   AddEncoding gzip .gz
  </Directory>
+<files *.gz>
+AddType "text/javascript" .gz
+AddEncoding gzip .gz
+</files>
